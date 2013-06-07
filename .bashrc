@@ -113,6 +113,8 @@ export SMARTGIT_JAVA_HOME=/home/cody/jre1.7.0_09
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
+#edited by cody
+export PATH=/sbin:.:/home/cody/bin:$PATH
 #for git shell prompt
 # Configure colors, if available.
 if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then

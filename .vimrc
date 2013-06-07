@@ -1,7 +1,3 @@
-###########################
-# vimrc for Cody Hanson
-###########################
-
 syntax on
 colorscheme koehler
 
