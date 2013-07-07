@@ -34,3 +34,18 @@ for dotfilename in dotfiles:
         os.symlink(dotfilepath,linkpath)
         print "{0} -> {1}".format(dotfilepath,linkpath)
 
+#install VIM plugins with the Pathogen plugin
+#install pahthogen
+#mkdir ~/.vim/autoload ~/.vim/bundle
+#pull down     https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+#into ~/.vim/autoload
+
+#TODO, put these into ~/.vim/bundle
+#git clone git://github.com/tpope/vim-fugitive.git
+#git clone git://github.com/tpope/vim-rails.git
+#git clone git://github.com/tpope/vim-bundler.git
+#git@github.com:tpope/vim-surround.git
+#git clone https://github.com/scrooloose/nerdtree.git
+#git@github.com:kien/ctrlp.vim.git
+
+

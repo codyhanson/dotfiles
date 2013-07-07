@@ -1,4 +1,10 @@
+
+call pathogen#infect()
+
+filetype plugin indent on
+
 syntax on
+
 colorscheme koehler
 
 set shiftwidth=4
@@ -10,3 +16,5 @@ highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%81v.\+/
 
 set pastetoggle=<F10>
+
+
