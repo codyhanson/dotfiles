@@ -1,0 +1,7 @@
+I use synergy version 1.3.8 so I can run it on my old PowerPC imac.
+synergy.sgc is the server config.
+
+For other machines see:
+synergy-start-mac.sh
+synergy.sh (for debian box).
+

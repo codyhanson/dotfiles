@@ -1,0 +1,22 @@
+section: screens
+    ent:
+        switchCorners = none
+        switchCornerSize = 0
+    Executor:
+        switchCorners = none
+        switchCornerSize = 0
+    imac:
+        switchCorners = none
+        switchCornerSize = 0
+end
+section: links
+    ent:
+        right = Executor
+        up = imac
+    Executor:
+        left = ent
+    imac:
+        down = ent
+end
+section: options
+end
