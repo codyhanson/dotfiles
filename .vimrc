@@ -13,8 +13,8 @@ set expandtab
 set autoindent
 set number
 
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%81v.\+/
+"highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+"match OverLength /\%81v.\+/
 
 set pastetoggle=<F10>
 
