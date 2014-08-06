@@ -10,7 +10,7 @@ curdir = os.getcwd()
 print "home: " + homedir
 print "cwd: " +  curdir
 
-dotfiles = ['.vimrc', '.screenrc']
+dotfiles = ['.vimrc', '.screenrc', '.bash_prompt', '.bash_profile']
 #if dotfiles already exist, confirm with user before overwriting.
 for dotfilename in dotfiles:
     dotfilepath = curdir+ '/' + dotfilename
