@@ -19,6 +19,6 @@ set number
 set pastetoggle=<F10>
 
 "Automatically open nerdtree
-autocmd vimenter * NERDTree
+"autocmd vimenter * NERDTree
 
 

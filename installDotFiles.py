@@ -56,7 +56,8 @@ plugins = [
     'git://github.com/scrooloose/nerdtree.git',
     'git://github.com/kien/ctrlp.vim.git',
     'git://github.com/wting/rust.vim.git',
-    'git://github.com/bling/vim-airline.git'
+    'git://github.com/bling/vim-airline.git',
+    'git://github.com/airblade/vim-gitgutter.git'
 ]
 
 for plugin in plugins:
