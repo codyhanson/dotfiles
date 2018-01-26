@@ -18,6 +18,11 @@ set number
 
 set pastetoggle=<F10>
 
+set clipboard=unnamed
+
+com! FormatJSON %!python -m json.tool
+" use :FormatJSON
+
 "Automatically open nerdtree
 "autocmd vimenter * NERDTree
 
